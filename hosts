@@ -1,0 +1,16 @@
+[apt]
+loki
+squids:1807
+broken
+aimcorp.co.uk:1807
+
+[dnf]
+fedora
+fedora-clone
+
+[zypper]
+opensuse
+opensuse-clone
+
+[windows]
+192.168.100.212
