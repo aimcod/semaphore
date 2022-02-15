@@ -1,6 +1,7 @@
 ---
 - hosts: dnf
   become: true
+  become_method: sudo
   tasks:
     - name: Update dnf packages
       dnf:
