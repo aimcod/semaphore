@@ -1,0 +1,11 @@
+---
+- hosts: zypper
+  become: true
+  become_method: sudo
+  tasks:
+    - name: Install named package
+      zypper:
+        name: "python-xml"
+        state: latest
+- import_playbook: apt_upgrade.yaml
+- import_playbook: dnf_upgrade.yaml
