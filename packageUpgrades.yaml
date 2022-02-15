@@ -10,5 +10,5 @@
         state: latest
 - import_playbook: apt_upgrade.yaml
 - import_playbook: dnf_upgrade.yaml
-- meta: clear_host_errors
+#- meta: clear_host_errors
 
