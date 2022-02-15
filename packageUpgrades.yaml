@@ -9,3 +9,4 @@
         state: latest
 - import_playbook: apt_upgrade.yaml
 - import_playbook: dnf_upgrade.yaml
+ignore_errors: yes
