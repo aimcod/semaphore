@@ -5,13 +5,12 @@ aimcorp.co.uk:1807
 
 [dnf]
 fedora
-fedora-clone
+fedorac
 broken
-localhost
 
 [zypper]
 opensuse
-opensuse-clone
+opensusec
 
 [windows]
 192.168.100.212
