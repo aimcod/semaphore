@@ -6,3 +6,5 @@
       dnf:
         name: "*"
         state: latest
+        register: 
+- meta: clear_host_errors
