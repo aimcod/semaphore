@@ -3,9 +3,9 @@
   become: true
   become_method: sudo
   tasks:
-    - name: Install named package
+    - name: Upgrade all packages
       zypper:
-        name: "python-xml"
+        name: "*"
         state: latest
 - import_playbook: apt_upgrade.yaml
 - import_playbook: dnf_upgrade.yaml
