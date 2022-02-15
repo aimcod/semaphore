@@ -6,7 +6,7 @@ aimcorp.co.uk:1807
 [dnf]
 fedora
 fedorac
-broken
+broken:1807
 
 [zypper]
 opensuse
