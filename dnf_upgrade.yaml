@@ -1,0 +1,8 @@
+---
+- hosts: dnf
+  become: true
+  tasks:
+    - name: Update dnf packages
+      dnf:
+        name: "*"
+        state: latest
